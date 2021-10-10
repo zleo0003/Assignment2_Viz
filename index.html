@@ -11,23 +11,20 @@
 </head>
 <body>
     <div id="pyramid"></div>
-    <script type="text/javascript">
-    
+  <div id="choropeth_map"></div>
+  
+    <script type="text/javascript">  
       var spec1 = "age_gender_vg.json";
       vegaEmbed('#pyramid', spec1).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
       }).catch(console.error);
     </script>
-<div id="choropeth_map"></div>
 <script type="text/javascript">
-
   var spec2 = "aus_map_viz.vega";
   vegaEmbed('#choropeth_map', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
-  
-
 </script>
 </body>
 </html>
