@@ -2,29 +2,60 @@
 <html>
 <head>
   <title> Australia Car Fatalities Across State </title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <!-- Import vega-embed -->
  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 
 
 </head>
 <body>
-    <div id="pyramid"></div>
-    <div id="choropeth_map"></div>
+   <div id="choropleth_map"></div>
+   <div id="trend"></div>
+   <div id="stacked_area"></div>
+   <div id="">stacked_bar</div>
+   <div id="pyramid"></div>
   
-    <script type="text/javascript">  
+  <script type="text/javascript">  
+      var spec1 = "aus_map_viz.json";
+      vegaEmbed('#choropleth_map', spec1).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+  </script>
+  
+  <script type="text/javascript">
+  var spec2 = "trend_fatality_brush.viz.vega";
+  vegaEmbed('#trend', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  </script>
+  
+  <script type="text/javascript">  
+      var spec1 = "stacked_area_weekly_fatalities.viz.vega";
+      vegaEmbed('#stacked_area', spec1).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+    </script>
+   
+  <script type="text/javascript">  
+      var spec1 = "road_user_bar_viz.vega.json";
+      vegaEmbed('#stacked_bar', spec1).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+    </script>
+   
+  <script type="text/javascript">  
       var spec1 = "age_gender_vg.json";
       vegaEmbed('#pyramid', spec1).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
       }).catch(console.error);
     </script>
-<script type="text/javascript">
-  var spec2 = "aus_map_viz.vega";
-  vegaEmbed('#choropeth_map', spec2).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-</script>
 </script>
 </body>
 </html>
