@@ -1,0 +1,47 @@
+{
+     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+     "data": {"url": "https://raw.githubusercontent.com/zleo0003/Assignment2_Viz/main/ardd_fatalities_all_data.csv"},
+     "title": "Fatality Trend in Australia from 2000-2021",
+     "spacing": 0,
+     "vconcat": [{
+     "width": 450,
+     "height": 250,
+     "mark": "line",
+     "encoding": {
+     "x": {
+     "field": "Year",
+     "type": "temporal",
+     "axis": {"title": ""},
+     "scale": {"domain": {"param": "brush"}}
+     },
+     "y": {"aggregate": "sum", "field": "Fatality", "title": "Sum of Fatality"}
+     }
+     }, {
+     "width": 450,
+     "height": 60,
+     "mark": "area",
+     "params": [{
+     "name": "brush",
+     "select": {"type": "interval", "encodings": ["x"]}
+    }],
+        
+     "encoding": {
+     "x": {
+     "field": "Year",
+     "type": "temporal"
+     },
+     "y": {
+    "aggregate": "sum",
+     "field": "Fatality",
+     "type": "quantitative",
+     "axis": {"tickCount": 4, "grid": false}
+     }
+     }
+     }],
+     "config": {
+      "view": {"stroke": null},
+      "axis": {"grid": false},
+      "title": {"align": "center", "anchor": "middle", "fontSize": 15}
+    }
+     }
+    

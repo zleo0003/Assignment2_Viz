@@ -1,0 +1,28 @@
+{ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/zleo0003/Assignment2_Viz/main/ardd_fatalities_all_data.csv"},
+  "width": 600,
+  "height": 240,
+  "mark": "area",
+  "params": [{
+    "name": "Dayweek",
+    "select": {"type": "point", "fields": ["Dayweek"]},
+    "bind": "legend"
+  }],
+  "encoding": {
+    "x": {
+      "timeUnit": "yearmonth", "field": "Year",
+      "axis": {"format": "%Y"}
+    },
+    "y": {
+      "aggregate": "sum", "field": "Fatality"
+    },
+    "color": {
+      "field": "Dayweek",
+      "scale": {"scheme": "accent"}
+    },
+    "opacity": {
+      "condition": {"param": "Dayweek", "value": 1},
+      "value": 0.2
+    }
+  }
+}

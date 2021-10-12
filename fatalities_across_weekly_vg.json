@@ -1,0 +1,41 @@
+
+  {"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Weekly Fatality Count In Australia",
+  "width": 400,
+  "height": 60,
+  "data": {"url": "https://raw.githubusercontent.com/zleo0003/A2_Dataset/main/ardd_fatalities_all_data.csv"},
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": "Yearly",
+      "axis": {"grid": false}
+    },
+    "y": {
+       "aggregate": "sum",
+      "field": "Fatality",
+      "type": "quantitative",
+      "title": "Fatality",
+      "axis": {"grid": false}
+    },
+    "color": {
+      "field": "Dayweek",
+      "legend": null
+    },
+    
+    "row": {
+      "field": "Dayweek",
+      "type": "ordinal",
+      "title": ""
+    }
+
+  
+  },
+  "config": {
+      "view": {"stroke": null},
+      "axis": {"grid": false},
+      "title": {"align": "center", "anchor": "middle", "fontSize": 14}
+    }
+}
+
