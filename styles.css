@@ -29,39 +29,15 @@ margin-bottom: 0.5;
 line-height: 1.618;
 }
 
-#choropleth_map {
-	left: 100px;
-	right: 100px;
-	height: 1000px;
-	width: 800px
-}
+.vis-container{
+    width: 100%;
+  }
 
-#trend {
-	left: 100px;
-	right: 100px;
-	height: 1000px;
-	width: 800px
-}
+ .vis-container-center{
+    margin: 0;
+    width: 100%;
+  }
 
-#stacked_area {
-	left: 100px;
-	right: 100px;
-	height: 1000px;
-	width: 800px
-}
 
-#stacked_bar {
-	left: 100px;
-	right: 100px;
-	height: 1000px;
-	width: 800px
-}
-
-#pyramid {
-	left: 100px;
-	right: 100px;
-	height: 1000px;
-	width: 800px
-}
   
 
