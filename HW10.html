@@ -22,21 +22,16 @@
 
     <script type="text/javascript">
     
-      var spec1 = "aus_map_viz.vega";
-      vegaEmbed('#choropleth_map', spec1).then(function(result) {
-        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-      }).catch(console.error);
-    </script>
-
-<script type="text/javascript">
+  var spec1 = "aus_map_viz.vega";
+  vegaEmbed('#choropleth_map', spec1).then(function(result) {
+   // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+   }).catch(console.error);
 
   var spec2 = "trend_fatality_brush.viz.vega";
   vegaEmbed('#trend', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
-</script>
 
-<script type="text/javascript">
 
   var spec2 = "fatalities_across_weekly_vg";
   vegaEmbed('#stacked_area', spec2).then(function(result) {
@@ -44,6 +39,5 @@
   }).catch(console.error);
 </script>
 
-</script>
 </body>
 </html>
