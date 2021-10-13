@@ -3,11 +3,11 @@ html {
 }
 
 .page{
-     width: 1000px;    
+     width: 1400px;    
      background-color: white;   
      margin: auto;
-     padding: 100px;
-     padding-top: 50px;
+     padding: 35px;
+     padding-top: 15px;
   }
 
 h1 {
@@ -31,11 +31,14 @@ line-height: 1.618;
 
 .vis-container{
     width: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
   }
 
  .vis-container-center{
     margin: 0;
     width: 100%;
+    overflow: hidden;
   }
 
 .pure-g{
