@@ -159,7 +159,7 @@
           "axis": {"format": "s"}
         },
         "color": {
-          "field": "gender",
+          "field": "Gender",
           "legend": null
         },
         "tooltip": [
