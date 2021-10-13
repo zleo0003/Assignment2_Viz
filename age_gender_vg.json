@@ -20,6 +20,7 @@
         "bind": {
           "input": "select",
           "options": [
+             null,
             "Australian Capital Territory",
             "New South Wales",
             "Northern Territory",
