@@ -3,11 +3,12 @@ html {
 }
 
 h1 {
-font-family: "PT_Sans",
+font-family: "PT_Sans";
 font-size: 1.5rem;
-font-weight: 700
-font-style: bold,
-line-height: 1.5
+font-weight: 700;
+font-style: bold;
+line-height: 1.5;
+margin: 0;
 }
 
 p { 
@@ -16,8 +17,8 @@ font-size: 1.125rem;
 font-weight: 300;
 font-style: normal;
 margin-top: 0.5;
-margin-bottom: 0.5
-line-height: 1.618
+margin-bottom: 0.5;
+line-height: 1.618;
 }
 
 #choropleth_map {
