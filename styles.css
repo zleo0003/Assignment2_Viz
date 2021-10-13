@@ -19,6 +19,15 @@ line-height: 1.5;
 margin: 0;
 }
 
+h2 {
+font-family: "PT_Sans";
+font-size: 2rem;
+font-weight: 700;
+font-style: bold;
+line-height: 1.5;
+margin: 0;
+}
+
 p { 
 font-family: Arial;
 font-size: 1.125rem;
