@@ -94,7 +94,7 @@
   "title": "Fatalities per 100,000 population",
   "format": ","
   },
-  {"field": "year", "type": "quantitative", "title": "Year"}
+  {"field": "Year", "type": "quantitative", "title": "Year"}
   ]
      }
    }
