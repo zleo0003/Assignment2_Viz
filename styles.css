@@ -1,5 +1,39 @@
-html, body {
+html {
     background-color: Cornsilk;
 }
+#choropleth_map {
+	left: 100px;
+	right: 100px;
+	height: 1000px;
+	width: 800px
+}
 
+#trend {
+	left: 100px;
+	right: 100px;
+	height: 1000px;
+	width: 800px
+}
+
+#stacked_area {
+	left: 100px;
+	right: 100px;
+	height: 1000px;
+	width: 800px
+}
+
+#stacked_bar {
+	left: 100px;
+	right: 100px;
+	height: 1000px;
+	width: 800px
+}
+
+#pyramid {
+	left: 100px;
+	right: 100px;
+	height: 1000px;
+	width: 800px
+}
   
+
