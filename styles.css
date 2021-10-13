@@ -3,16 +3,16 @@ html {
 }
 
 .page{
-     width: 1010px;    
+     width: 1000px;    
      background-color: white;   
      margin: auto;
-     padding: 50px;
-     padding-top: 35px;
+     padding: 100px;
+     padding-top: 50px;
   }
 
 h1 {
 font-family: "PT_Sans";
-font-size: 1.5rem;
+font-size: 2rem;
 font-weight: 700;
 font-style: bold;
 line-height: 1.5;
