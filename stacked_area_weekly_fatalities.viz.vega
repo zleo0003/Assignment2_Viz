@@ -1,4 +1,5 @@
 { "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Fatality On A Weekly Basis Across Australia",
   "data": {"url": "https://raw.githubusercontent.com/zleo0003/Assignment2_Viz/main/ardd_fatalities_all_data.csv"},
   "width": 600,
   "height": 240,
@@ -18,11 +19,32 @@
     },
     "color": {
       "field": "Dayweek",
-      "scale": {"scheme": "accent"}
+      "scale": {"scheme": "category20"}
     },
     "opacity": {
       "condition": {"param": "Dayweek", "value": 1},
-      "value": 0.2
+      "value": 0.1
     }
-  }
+  },
+  "config": {
+      "view": {"stroke": null},
+      "legend": {
+        "orient": "right",
+        "titleOrient": "top",
+        "labelFontSize": 9,
+        "titleFontSize": 10
+      },
+      "axisY": {
+        "labelAlign": "left",
+        "labelPadding": 30,
+        "labelFontSize": 11,
+        "labelFontWeight": "bold"
+      },
+      "axisX": {
+        "grid": false,
+        "labelFontSize": 11,
+        "titleFontSize": 13,
+        "tickMinStep": 1
+      }
+    }
 }
