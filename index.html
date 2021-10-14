@@ -141,30 +141,27 @@
   
                                             
     <script type="text/javascript">
-    var specV1 = "aus_map_viz.vega";
-    var specV2 = "trend_fatality_brush.viz.vega";
-    var specV3 = "stacked_area_weekly_fatalities.viz.vega";
-    var specV4 = "road_user_bar_viz.vega.json";
-    var specV5 = "age_gender_vg.json"
     
+    var specV1 = "aus_map_viz.vega";
     vegaEmbed('#choropleth_map', specV1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
     
+    var specV2 = "trend_fatality_brush.viz.vega";
     vegaEmbed('#trend', specV2).then(function(result) {
      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-
+     var specV3 = "stacked_area_weekly_fatalities.viz.vega";
      vegaEmbed('#stacked_area', specV3).then(function(result) {
      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
      }).catch(console.error);
-
+      var specV4 = "road_user_bar_viz.vega.json";
       vegaEmbed('#stacked_bar', specV4).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
       }).catch(console.error);
 
-
+      var specV5 = "age_gender_vg.json"
       vegaEmbed('#pyramid', specV5).then(function(result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
       }).catch(console.error);
