@@ -4,27 +4,25 @@ body {
 }
 
 h1 {
-font-family: 'Merriweather', serif;
 font-size: 60;
 font-weight: 900;
 text-align: center;
+font-family: 'Merriweather', serif;
 }
-<!-- title -->
 
 h2 {
 font-family: 'Merriweather', serif;
 font-size: 40;
 font-weight: 900;
 text-align: center;
+font-family: 'Merriweather', serif;
 }
-<!-- Header for trend and weekly -->
 
 h3 {
-font-family: 'Merriweather', serif;
 font-size: 40;
 font-weight: 900;
+font-family: 'Merriweather', serif;
 }
-<!-- Header for age and road user -->
 
 .page{
      width: 1400px;    
