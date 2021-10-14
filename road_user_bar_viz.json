@@ -63,10 +63,10 @@
             "Pedestrian"
           ],
           "range": [
-            "#e31a1c",
+            "#1f78b4",
+            "#33a02c",
+            "#fb9a99",
             "#fdbf6f",
-            "#ff7f00",
-            "#cab2d6",
             "#6a3d9a",
             "#ffff99",
             "#b15928"
