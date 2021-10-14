@@ -1,6 +1,6 @@
-html {
+body {
     background-color: Cornsilk;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
 }
 
 .page{
@@ -12,28 +12,15 @@ html {
   }
 
 h1 {
-
-font-size: 2rem;
+font-family: 'Merriweather', serif;
+font-size: 60;
 font-weight: 900;
 }
 
 h2 {
-
-font-size: 2rem;
+font-family: 'Merriweather', serif;
+font-size: 40;
 font-weight: 700;
-font-style: bold;
-line-height: 1.5;
-margin: 0;
-}
-
-p { 
-font-family: Arial;
-font-size: 1.125rem;
-font-weight: 300;
-font-style: normal;
-margin-top: 0.5;
-margin-bottom: 0.5;
-line-height: 1.618;
 }
 
 .vis-container{
@@ -50,7 +37,7 @@ line-height: 1.618;
 
 .pure-g{
  margin-bottom: 25px;
- font-family: Merriweather;
+ font-family: 'Merriweather', serif;
 }
 
 .description h2, h1{
@@ -65,3 +52,6 @@ line-height: 1.618;
       padding-right: 20px;
     }
 
+.small-font{
+      font-size: 14px;
+  }
