@@ -13,7 +13,7 @@ body {
 
 h1 {
 font-family: 'Merriweather', serif;
-font-size: 60;
+font-size: 80;
 font-weight: 900;
 text-align: center
 }
@@ -22,7 +22,7 @@ text-align: center
 h2 {
 font-family: 'Merriweather', serif;
 font-size: 40;
-font-weight: 700;
+font-weight: 900;
 text-align: center
 }
 <!-- Header for trend and weekly -->
@@ -30,7 +30,7 @@ text-align: center
 h3{
 font-family: 'Merriweather', serif;
 font-size: 40;
-font-weight: 700;
+font-weight: 900;
 }
 <!-- Header for age and road user -->
 
@@ -43,7 +43,6 @@ font-weight: 700;
  .vis-container-center{
     margin: 0;
     width: 100%;
-    overflow: hidden;
   }
 
 .pure-g{
