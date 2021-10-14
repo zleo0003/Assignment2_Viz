@@ -23,6 +23,13 @@ font-size: 40;
 font-weight: 700;
 }
 
+h3{
+font-family: 'Merriweather', serif;
+font-size: 40;
+font-weight: 700;
+text-align: center;
+}
+
 .vis-container{
     width: 100%;
     overflow: hidden;
