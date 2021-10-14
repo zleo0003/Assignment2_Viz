@@ -3,17 +3,9 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-.page{
-     width: 1400px;    
-     background-color: white;   
-     margin: auto;
-     padding: 35px;
-     padding-top: 15px;
-  }
-
 h1 {
 font-family: 'Merriweather', serif;
-font-size: 80;
+font-size: 60;
 font-weight: 900;
 text-align: center;
 }
@@ -34,21 +26,23 @@ font-weight: 900;
 }
 <!-- Header for age and road user -->
 
+.page{
+     width: 1400px;    
+     background-color: white;   
+     margin: auto;
+     padding: 50px;
+     padding-top: 35px;
+  }
+
 .vis-container{
     width: 100%;
     overflow: hidden;
-    padding-bottom: 20px;
   }
 
  .vis-container-center{
     margin: 0;
     width: 100%;
   }
-
-.pure-g{
- margin-bottom: 25px;
- font-family: 'Merriweather', serif;
-}
 
 .description h2, h1{
       margin-top:0px;
@@ -61,6 +55,11 @@ font-weight: 900;
 .description-left{
       padding-right: 20px;
     }
+
+.pure-g{
+ margin-bottom: 25px;
+ font-family: 'Merriweather', serif;
+}
 
 .small-font{
       font-size: 14px;
