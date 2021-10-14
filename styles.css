@@ -1,5 +1,6 @@
 html {
     background-color: Cornsilk;
+    font-family: 'Merriweather';
 }
 
 .page{
@@ -11,16 +12,13 @@ html {
   }
 
 h1 {
-font-family: "PT_Sans";
+
 font-size: 2rem;
 font-weight: 900;
-font-style: bold;
-line-height: 1.5;
-margin: 0;
 }
 
 h2 {
-font-family: "PT_Sans";
+
 font-size: 2rem;
 font-weight: 700;
 font-style: bold;
@@ -52,8 +50,18 @@ line-height: 1.618;
 
 .pure-g{
  margin-bottom: 25px;
- font-family: "PT_Sans"
+ font-family: 'Merriweather'
 }
 
-  
+.description h2, h1{
+      margin-top:0px;
+    }
+
+.description-right {
+      padding-left: 20px;
+    }
+
+.description-left{
+      padding-right: 20px;
+    }
 
