@@ -15,20 +15,24 @@ h1 {
 font-family: 'Merriweather', serif;
 font-size: 60;
 font-weight: 900;
+text-align: center
 }
+<!-- title -->
 
 h2 {
 font-family: 'Merriweather', serif;
 font-size: 40;
 font-weight: 700;
+text-align: center;
 }
+<!-- Header for trend and weekly -->
 
 h3{
 font-family: 'Merriweather', serif;
 font-size: 40;
 font-weight: 700;
-text-align: center;
 }
+<!-- Header for age and road user -->
 
 .vis-container{
     width: 100%;
