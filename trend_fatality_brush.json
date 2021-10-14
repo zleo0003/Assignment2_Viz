@@ -4,8 +4,8 @@
   "title": "Fatality Trend in Australia from 2000-2021",
   "spacing": 0,
   "vconcat": [{
-  "width": 500,
-  "height": 250,
+  "width": 900,
+  "height": 200,
   "mark": "line",
   "encoding": {
   "x": {
@@ -17,8 +17,8 @@
   "y": {"aggregate": "sum", "field": "Fatality", "title": "Sum of Fatality"}
   }
   }, {
-  "width": 500,
-  "height": 250,
+  "width": 900,
+  "height": 200,
   "mark": "area",
   "params": [{
   "name": "brush",
