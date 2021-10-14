@@ -1,6 +1,6 @@
 html {
     background-color: Cornsilk;
-    font-family: 'Merriweather';
+    font-family: Merriweather;
 }
 
 .page{
@@ -50,7 +50,7 @@ line-height: 1.618;
 
 .pure-g{
  margin-bottom: 25px;
- font-family: 'Merriweather'
+ font-family: Merriweather
 }
 
 .description h2, h1{
