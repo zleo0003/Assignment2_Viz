@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.1.json",
   "title": "Australia Fatalities from year 2000-2021 per 100,000 population",
   "width":800,
   "height": 500,
