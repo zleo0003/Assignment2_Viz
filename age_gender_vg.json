@@ -85,7 +85,8 @@
           "aggregate": "sum", "field": "PercentOfTotal",
           "title": "Percentage of Fatalities",
           "axis": {"format": "s"},
-          "sort": "descending"
+          "sort": "descending",
+          "scale": {"domain": [0,25]}
         },
         "color": {
           "field": "Gender",
@@ -156,7 +157,8 @@
         "x": {
           "aggregate": "sum", "field": "PercentOfTotal",
           "title": "Population of Fatalities",
-          "axis": {"format": "s"}
+          "axis": {"format": "s"},
+           "scale": {"domain": [0,25]}
         },
         "color": {
           "field": "Gender",
