@@ -5,7 +5,7 @@
   "spacing": 0,
   "vconcat": [{
   "width": 900,
-  "height": 120,
+  "height": 150,
   "mark": "line",
   "encoding": {
   "x": {
@@ -18,7 +18,7 @@
   }
   }, {
   "width": 900,
-  "height": 200,
+  "height": 150,
   "mark": "area",
   "params": [{
   "name": "brush",
