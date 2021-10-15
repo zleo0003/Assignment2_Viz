@@ -37,9 +37,9 @@ font-family: 'Merriweather', serif;
   }
 
  .vis-container-center{
-    margin: 0;
-    width: 100%;
-    verticle-align: middle;
+    margin: auto;
+    width: 50%;
+    verticle-align: center;
   }
 
 .description h2, h1{
