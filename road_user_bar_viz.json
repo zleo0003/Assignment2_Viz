@@ -5,7 +5,7 @@
     },
     "title": "Road Users Fatality Count",
     "height": 250,
-    "width": "container",
+    "width": 600,
     "spacing": 0,
     "params": [
       {
