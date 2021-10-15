@@ -39,6 +39,7 @@ font-family: 'Merriweather', serif;
  .vis-container-center{
     margin: 0;
     width: 100%;
+    verticle-align: middle;
   }
 
 .description h2, h1{
