@@ -22,7 +22,7 @@
  "layer": [
      {
      "data": {
-         "url": "https://raw.githubusercontent.com/zleo0003/aus_map/main/aus_map_topo.json",
+         "url": "https://raw.githubusercontent.com/zleo0003/Assignment2_Viz/main/aus_map_final.json",
          "format": {"type": "topojson", "feature": "STE11aAust"}
      },
        "mark": {
@@ -45,7 +45,7 @@
   "from": {
   "data": {
   "url":
-     "https://raw.githubusercontent.com/zleo0003/aus_map/main/aus_map_topo.json",
+     "https://raw.githubusercontent.com/zleo0003/Assignment2_Viz/main/aus_map_final.json",
   "format": {
   "type": "topojson",
   "feature": "STE11aAust"
