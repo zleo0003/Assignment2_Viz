@@ -1,7 +1,7 @@
 { "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Fatality On A Weekly Basis Across Australia",
   "data": {"url": "https://raw.githubusercontent.com/zleo0003/Assignment2_Viz/main/ardd_fatalities_all_data.csv"},
-  "width": 900,
+  "width": "container",
   "height": 200,
   "mark": "area",
   "params": [{
