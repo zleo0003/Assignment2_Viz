@@ -64,8 +64,8 @@ font-family: 'Merriweather', serif;
   }
 
 #v2 {
-  position: absolute;
-  right: 100px;
-  width: 60%;
-  padding: 35px;
+left: 100px;
+right: 100px;
+height: 1000px;
+width: 800px
 }
