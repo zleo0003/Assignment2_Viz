@@ -1,5 +1,5 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
       "url": "https://raw.githubusercontent.com/zleo0003/A2_Dataset/main/ardd_fatalities_all_data.csv"
     },
@@ -63,13 +63,13 @@
             "Pedestrian"
           ],
           "range": [
-            "#1f78b4",
-            "#33a02c",
-            "#fb9a99",
-            "#fdbf6f",
-            "#6a3d9a",
-            "#ffff99",
-            "#b15928"
+            "#CC6677",
+            "#332288",
+            "#DDCC77",
+            "#117733",
+            "#88CCEE",
+            "#882255",
+            "#44AA99"
           ]
         }
       },
